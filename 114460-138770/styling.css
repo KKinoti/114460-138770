@@ -1,0 +1,137 @@
+main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+label.logo{
+    color: lightsalmon;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 0 100px;
+    float: left;
+}
+
+
+ul{
+    width: 400px;
+    float: left;
+    height: 70px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s,ease-in-out;
+}
+nav ul li a hover{
+    color: white;
+    cursor: pointer;
+}
+p{
+    color: yellow;
+}
+#fname,#lname,#email,#pass1,#pass2,#age,#submit{
+    padding: 10px;
+    text-align: left;
+}
+.space{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: yellow;
+    border-radius: 10px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #0082e6 ;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+font-family: Garamond;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.space form{
+    padding: 50px;
+    box-sizing: border-box;
+}
+form .text{
+    position: relative;
+    border-bottom: 2px;
+    margin: 30px;
+}
+.text input{
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    border: none;
+    outline: none;
+
+
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: forestgreen;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.signup{
+    text-align: center;
+    margin: 30px;
+    cursor: pointer;
+}
+.forgotpass{
+    margin: 20px;
+    color: #a6a6a6;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.description{
+     position: absolute;
+     top: 50%;
+     left: 55%;
+     transform: translate(-50%,-50%);
+     font-family: Arial;
+     user-select: none;
+     border: none;
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
